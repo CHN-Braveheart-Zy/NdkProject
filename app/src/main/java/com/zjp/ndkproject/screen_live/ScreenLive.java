@@ -16,8 +16,10 @@ public class ScreenLive implements Runnable{
     public static final int REQUEST_CODE = 0X01;
     private MediaProjectionManager projectionManager;
     private MediaProjection mediaProjection;
+    private String url;
 
     public void startLive(String url, ScreenLiveActivity activity) {
+        this.url = url;
         projectionManager = (MediaProjectionManager) activity.getSystemService(Context.MEDIA_PROJECTION_SERVICE);
         Intent screenCaptureIntent = projectionManager.createScreenCaptureIntent();
         activity.startActivityForResult(screenCaptureIntent, REQUEST_CODE);
@@ -39,6 +41,12 @@ public class ScreenLive implements Runnable{
 
     @Override
     public void run() {
-
+        if (!connect(url)) {
+            return;
+        }
+        VideoCodec videoCodec = new VideoCodec();
+        videoCodec.startLive(mediaProjection);
     }
+
+    public native boolean connect(String url);
 }
