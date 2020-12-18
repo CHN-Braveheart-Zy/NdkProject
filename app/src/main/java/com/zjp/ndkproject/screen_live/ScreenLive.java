@@ -46,6 +46,9 @@ public class ScreenLive implements Runnable{
         }
         VideoCodec videoCodec = new VideoCodec();
         videoCodec.startLive(mediaProjection);
+
+        AudioCodec audioCodec = new AudioCodec();
+        audioCodec.startLive();
     }
 
     public native boolean connect(String url);

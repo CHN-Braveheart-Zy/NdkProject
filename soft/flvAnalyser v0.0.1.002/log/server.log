@@ -1,0 +1,814 @@
+[10004]2017-12-19 08:25:46:389 - [INFO] - LOG4CPLUS_INIT OK from: D:\software\调试工具\Hysoft\flvAnalyser v0.0.1.002/config/log.properties
+[10004]2017-12-19 08:25:46:389 - [INFO] - flvAnalyser 正在启动，version v0.0.1.002, Updated on 08:30:25, Dec 19 2017(64-bit), build at 08:23:47, Dec 19 2017
+[10004]2017-12-19 08:25:46:392 - [INFO] - [hysmm_blackar_init] start to init blackbar parameters.
+[10004]2017-12-19 08:25:46:393 - [INFO] - [hysmm_blackar_init] end of init blackbar parameters.
+[10004]2017-12-19 08:25:46:393 - [INFO] - [transc_sys_init] === hyscoder transcode version info ===
+
+                _._                     === 64-bit platform ===                        
+           _.-``__ ''-._                hyscoder v1.0.5 Built on <Dec  5 2017 09:33:44>                  
+      _.-``    `.  `_.  ''-._           hysmm    v1.0.5 Built on <Dec  5 2017 09:33:58>                               
+  .-`` .-```.  ```\/    _.,_ ''-._      FFMPEG version 3.0.10                         
+ (    ' xrk  ,       .-`  | `,    )     x264-20171201-stable/x265-v2.6    (H.264/HEVC) 
+ |`-._`-...-` __...-.``-._|'` _.-'|     xvid-1.3.4                        (MPEG4)      
+ |    `-._   `._    /     _.-'    |     lame-3.100                        (MP3)        
+  `-._    `-._  `-./  _.-'    _.-'      twolame-0.3.13                    (MP2)        
+ |`-._`-._    `-.__.-'    _.-'_.-'|     opencv-2.4.11 / fftw-3.3.5                     
+ |    `-._`-._        _.-'_.-'    |     onvif-2.0     / openssl-1.0.2k                 
+  `-._    `-._`-.__.-'_.-'    _.-'      libssh-0.7.5  / libgcrypt-1.8.1                
+      `-._    `-.__.-'    _.-'          speex-1.2.0                                    
+          `-._        _.-'                                                             
+              `-.__.-'                  Update date: 2017-12-05 21:16:16               
+                                        E-mail     : hybase@qq.com                     
+                                                                                    
+
+
+[10004]2017-12-19 08:25:46:394 - [INFO] - [hyscoder_info]  libavutil      55. 17.103
+[10004]2017-12-19 08:25:46:394 - [INFO] - [hyscoder_info]  libavcodec     57. 24.102
+[10004]2017-12-19 08:25:46:394 - [INFO] - [hyscoder_info]  libavformat    57. 25.100
+[10004]2017-12-19 08:25:46:395 - [INFO] - [hyscoder_info]  libavdevice    57.  0.101
+[10004]2017-12-19 08:25:46:395 - [INFO] - [hyscoder_info]  libavfilter     6. 31.100
+[10004]2017-12-19 08:25:46:395 - [INFO] - [hyscoder_info]  libswscale      4.  0.100
+[10004]2017-12-19 08:25:46:395 - [INFO] - [hyscoder_info]  libswresample   2.  0.101
+[10004]2017-12-19 08:25:46:395 - [INFO] - [hyscoder_info]  libpostproc    54.  0.100
+[10004]2017-12-19 08:25:46:395 - [INFO] - [transc_sys_init] init success, log_level= info
+[10004]2017-12-19 08:25:46:895 - [INFO] - =================================================================================
+[10004]2017-12-19 08:25:46:895 - [INFO] - = flvAnalyser init finished                                                    ==
+[10004]2017-12-19 08:25:46:895 - [INFO] - =================================================================================
+[1896]2020-12-18 22:54:53:062 - [INFO] - LOG4CPLUS_INIT OK from: D:\Users\Desktop\rtmp\资料\flvAnalyser+v0.0.1.002\flvAnalyser v0.0.1.002/config/log.properties
+[1896]2020-12-18 22:54:53:062 - [INFO] - flvAnalyser 正在启动，version v0.0.1.002, Updated on 08:30:25, Dec 19 2017(64-bit), build at 08:23:47, Dec 19 2017
+[1896]2020-12-18 22:54:53:063 - [INFO] - [hysmm_blackar_init] start to init blackbar parameters.
+[1896]2020-12-18 22:54:53:064 - [INFO] - [hysmm_blackar_init] end of init blackbar parameters.
+[1896]2020-12-18 22:54:53:064 - [INFO] - [transc_sys_init] === hyscoder transcode version info ===
+
+                _._                     === 64-bit platform ===                        
+           _.-``__ ''-._                hyscoder v1.0.5 Built on <Dec  5 2017 09:33:44>                  
+      _.-``    `.  `_.  ''-._           hysmm    v1.0.5 Built on <Dec  5 2017 09:33:58>                               
+  .-`` .-```.  ```\/    _.,_ ''-._      FFMPEG version 3.0.10                         
+ (    ' xrk  ,       .-`  | `,    )     x264-20171201-stable/x265-v2.6    (H.264/HEVC) 
+ |`-._`-...-` __...-.``-._|'` _.-'|     xvid-1.3.4                        (MPEG4)      
+ |    `-._   `._    /     _.-'    |     lame-3.100                        (MP3)        
+  `-._    `-._  `-./  _.-'    _.-'      twolame-0.3.13                    (MP2)        
+ |`-._`-._    `-.__.-'    _.-'_.-'|     opencv-2.4.11 / fftw-3.3.5                     
+ |    `-._`-._        _.-'_.-'    |     onvif-2.0     / openssl-1.0.2k                 
+  `-._    `-._`-.__.-'_.-'    _.-'      libssh-0.7.5  / libgcrypt-1.8.1                
+      `-._    `-.__.-'    _.-'          speex-1.2.0                                    
+          `-._        _.-'                                                             
+              `-.__.-'                  Update date: 2017-12-05 21:16:16               
+                                        E-mail     : hybase@qq.com                     
+                                                                                    
+
+
+[1896]2020-12-18 22:54:53:066 - [INFO] - [hyscoder_info]  libavutil      55. 17.103
+[1896]2020-12-18 22:54:53:066 - [INFO] - [hyscoder_info]  libavcodec     57. 24.102
+[1896]2020-12-18 22:54:53:066 - [INFO] - [hyscoder_info]  libavformat    57. 25.100
+[1896]2020-12-18 22:54:53:066 - [INFO] - [hyscoder_info]  libavdevice    57.  0.101
+[1896]2020-12-18 22:54:53:066 - [INFO] - [hyscoder_info]  libavfilter     6. 31.100
+[1896]2020-12-18 22:54:53:066 - [INFO] - [hyscoder_info]  libswscale      4.  0.100
+[1896]2020-12-18 22:54:53:067 - [INFO] - [hyscoder_info]  libswresample   2.  0.101
+[1896]2020-12-18 22:54:53:067 - [INFO] - [hyscoder_info]  libpostproc    54.  0.100
+[1896]2020-12-18 22:54:53:067 - [INFO] - [transc_sys_init] init success, log_level= info
+[1896]2020-12-18 22:54:53:568 - [INFO] - =================================================================================
+[1896]2020-12-18 22:54:53:568 - [INFO] - = flvAnalyser init finished                                                    ==
+[1896]2020-12-18 22:54:53:568 - [INFO] - =================================================================================
+[1896]2020-12-18 22:56:09:135 - [INFO] - [CMainFrame::makeFileReady] file ready, file_sz= 2157606 Bytes, file= F:\zmdisk\河南长垣KTV火灾.flv
+[6576]2020-12-18 22:56:09:139 - [INFO] - [hyscoder_info] Packet mismatch 145 141
+[6576]2020-12-18 22:56:09:147 - [INFO] - [hyscoder_info] missing picture in access unit with size 29
+[6576]2020-12-18 22:56:09:148 - [INFO] - [hyscoder_info] [h264_decode_init]=== hys_sdk ===  log2_frm= 0 poc_lsb= 0  ref= 0
+[6576]2020-12-18 22:56:09:148 - [INFO] - [hyscoder_info] no frame!
+[6576]2020-12-18 22:56:09:148 - [INFO] - [hyscoder_info] missing picture in access unit with size 9
+[6576]2020-12-18 22:56:09:148 - [INFO] - [hyscoder_info] no frame!
+[6576]2020-12-18 22:56:09:149 - [INFO] - [hyscoder_info] missing picture in access unit with size 640
+[6576]2020-12-18 22:56:09:149 - [INFO] - [hyscoder_info] no frame!
+[6576]2020-12-18 22:56:09:154 - [INFO] - [hyscoder_info] DTS 93 < 231 out of order
+[6576]2020-12-18 22:56:09:163 - [INFO] - [hyscoder_info] missing picture in access unit with size 29
+[6576]2020-12-18 22:56:09:163 - [INFO] - [hyscoder_info] missing picture in access unit with size 9
+[6576]2020-12-18 22:56:09:164 - [INFO] - [hyscoder_info] Input #0, flv, from 'F:\zmdisk\河南长垣KTV火灾.flv':
+[6576]2020-12-18 22:56:09:164 - [INFO] - [hyscoder_info]   Duration: 
+[6576]2020-12-18 22:56:09:164 - [INFO] - [hyscoder_info] 00:00:10.87
+[6576]2020-12-18 22:56:09:164 - [INFO] - [hyscoder_info] , start: 
+[6576]2020-12-18 22:56:09:165 - [INFO] - [hyscoder_info] 0.000000
+[6576]2020-12-18 22:56:09:165 - [INFO] - [hyscoder_info] , bitrate: 
+[6576]2020-12-18 22:56:09:165 - [INFO] - [hyscoder_info] 1587 kb/s
+[6576]2020-12-18 22:56:09:165 - [INFO] - [hyscoder_info]     Stream #0:0
+[6576]2020-12-18 22:56:09:165 - [INFO] - [hyscoder_info] : Video: h264 (Main), yuv420p, 930x524
+[6576]2020-12-18 22:56:09:165 - [INFO] - [hyscoder_info] , 
+[6576]2020-12-18 22:56:09:165 - [INFO] - [hyscoder_info] 15.17 fps, 
+[6576]2020-12-18 22:56:09:165 - [INFO] - [hyscoder_info] 15 tbr, 
+[6576]2020-12-18 22:56:09:165 - [INFO] - [hyscoder_info] 1k tbn, 
+[6576]2020-12-18 22:56:09:165 - [INFO] - [hyscoder_info] 30 tbc
+[6576]2020-12-18 22:56:09:166 - [INFO] - [hyscoder_info]     Stream #0:1
+[6576]2020-12-18 22:56:09:166 - [INFO] - [hyscoder_info] : Audio: aac (LC), 44100 Hz, stereo, fltp
+[6576]2020-12-18 22:56:09:166 - [INFO] - [transcode_avfmt_c::Initialize] success, file= F:\zmdisk\河南长垣KTV火灾.flv
+[6576]2020-12-18 22:56:09:166 - [INFO] - [CMainFrame::collectAVFmtInfo] nb_streams= 2, nb_programs= 0, nb_chapters= 0, flv, duration: 10 s, start_time= 0 ms, bitrate= 1587.5 Kbps, F:\zmdisk\河南长垣KTV火灾.flv
+[836]2020-12-18 22:56:09:170 - [INFO] - [flv_stat_c::Initialize] init success. active= 1, F:\zmdisk\河南长垣KTV火灾.flv
+[836]2020-12-18 22:56:09:170 - [INFO] - [flv_parser_c::Initialize] init success,F:\zmdisk\河南长垣KTV火灾.flv
+[836]2020-12-18 22:56:09:170 - [INFO] - [CMainFrame::onParseFile] === start to parse... === F:\zmdisk\河南长垣KTV火灾.flv
+[836]2020-12-18 22:56:09:170 - [INFO] - [flv_parser_c::parseFileHeader] nVersion= 1, bHaveVideo= 1, bHaveAudio= 1, nDataOffset= 9, m_nStatus= 2, m_nFileOffset= 9
+[836]2020-12-18 22:56:09:170 - [INFO] - [CMainFrame::parseHeader] success, F:\zmdisk\河南长垣KTV火灾.flv
+[836]2020-12-18 22:56:09:174 - [INFO] - [CMainFrame::parseBody] start to parsed. nOffset= 13, file= F:\zmdisk\河南长垣KTV火灾.flv
+[836]2020-12-18 22:56:09:174 - [INFO] - [flv_parser_c::parseVideoTag] get sps/pps size= 38,F:\zmdisk\河南长垣KTV火灾.flv
+[836]2020-12-18 22:56:09:174 - [INFO] - [flv_parser_c::parserVideoTag] get H264 config info: nVersion= 1, nProfile= Main(77), nCompatibility= 64, nLevel= 31, NALU len= 4, nSPS= 1, nPPS= 1,F:\zmdisk\河南长垣KTV火灾.flv
+[836]2020-12-18 22:56:09:174 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1008
+[836]2020-12-18 22:56:09:174 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1008
+[836]2020-12-18 22:56:09:174 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1009
+[836]2020-12-18 22:56:09:174 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1009
+[836]2020-12-18 22:56:09:175 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1044
+[836]2020-12-18 22:56:09:175 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1046
+[836]2020-12-18 22:56:09:175 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1079
+[836]2020-12-18 22:56:09:175 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1091
+[836]2020-12-18 22:56:09:175 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1113
+[836]2020-12-18 22:56:09:175 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1131
+[836]2020-12-18 22:56:09:175 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1161
+[836]2020-12-18 22:56:09:175 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1193
+[836]2020-12-18 22:56:09:175 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1226
+[836]2020-12-18 22:56:09:176 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1233
+[836]2020-12-18 22:56:09:176 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1265
+[836]2020-12-18 22:56:09:176 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1273
+[836]2020-12-18 22:56:09:176 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1301
+[836]2020-12-18 22:56:09:176 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1281
+[836]2020-12-18 22:56:09:176 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1281
+[836]2020-12-18 22:56:09:176 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1281
+[836]2020-12-18 22:56:09:176 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1281
+[836]2020-12-18 22:56:09:176 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1301
+[836]2020-12-18 22:56:09:176 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1354
+[836]2020-12-18 22:56:09:177 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1354
+[836]2020-12-18 22:56:09:177 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1143
+[836]2020-12-18 22:56:09:177 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1162
+[836]2020-12-18 22:56:09:177 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1193
+[836]2020-12-18 22:56:09:177 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1241
+[836]2020-12-18 22:56:09:177 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1245
+[836]2020-12-18 22:56:09:177 - [ERROR] - [flv_stat_c::addVideoTag] !=== v_pts error recurrence, nDeltaPts= -138ms, pts: new=93 last=231
+[836]2020-12-18 22:56:09:177 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1383
+[836]2020-12-18 22:56:09:177 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1419
+[836]2020-12-18 22:56:09:177 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1429
+[836]2020-12-18 22:56:09:178 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1440
+[836]2020-12-18 22:56:09:178 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1482
+[836]2020-12-18 22:56:09:178 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1414
+[836]2020-12-18 22:56:09:178 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1458
+[836]2020-12-18 22:56:09:178 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1459
+[836]2020-12-18 22:56:09:178 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1473
+[836]2020-12-18 22:56:09:178 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1521
+[836]2020-12-18 22:56:09:178 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1521
+[836]2020-12-18 22:56:09:178 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1312
+[836]2020-12-18 22:56:09:178 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1326
+[836]2020-12-18 22:56:09:179 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1368
+[836]2020-12-18 22:56:09:179 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1370
+[836]2020-12-18 22:56:09:179 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1394
+[836]2020-12-18 22:56:09:179 - [ERROR] - [flv_stat_c::addVideoTag] !=== v_pts error recurrence, nDeltaPts= -70ms, pts: new=300 last=370
+[836]2020-12-18 22:56:09:179 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1464
+[836]2020-12-18 22:56:09:179 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1481
+[836]2020-12-18 22:56:09:179 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1512
+[836]2020-12-18 22:56:09:179 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1530
+[836]2020-12-18 22:56:09:180 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1227
+[836]2020-12-18 22:56:09:180 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1271
+[836]2020-12-18 22:56:09:180 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1277
+[836]2020-12-18 22:56:09:180 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1297
+[836]2020-12-18 22:56:09:180 - [ERROR] - [flv_stat_c::addVideoTag] !=== v_pts error recurrence, nDeltaPts= -163ms, pts: new=440 last=603
+[836]2020-12-18 22:56:09:180 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1460
+[836]2020-12-18 22:56:09:180 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1480
+[836]2020-12-18 22:56:09:180 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1510
+[836]2020-12-18 22:56:09:181 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1530
+[836]2020-12-18 22:56:09:181 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1448
+[836]2020-12-18 22:56:09:181 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1468
+[836]2020-12-18 22:56:09:181 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1518
+[836]2020-12-18 22:56:09:181 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1209
+[836]2020-12-18 22:56:09:181 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1220
+[836]2020-12-18 22:56:09:181 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1254
+[836]2020-12-18 22:56:09:181 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1289
+[836]2020-12-18 22:56:09:181 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1289
+[836]2020-12-18 22:56:09:181 - [ERROR] - [flv_stat_c::addVideoTag] !=== v_pts error recurrence, nDeltaPts= -154ms, pts: new=677 last=831
+[836]2020-12-18 22:56:09:181 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1443
+[836]2020-12-18 22:56:09:182 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1459
+[836]2020-12-18 22:56:09:182 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1483
+[836]2020-12-18 22:56:09:182 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1513
+[836]2020-12-18 22:56:09:182 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1430
+[836]2020-12-18 22:56:09:182 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1442
+[836]2020-12-18 22:56:09:182 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1470
+[836]2020-12-18 22:56:09:182 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1490
+[836]2020-12-18 22:56:09:182 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1510
+[836]2020-12-18 22:56:09:182 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1191
+[836]2020-12-18 22:56:09:182 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1222
+[836]2020-12-18 22:56:09:182 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1241
+[836]2020-12-18 22:56:09:182 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1265
+[836]2020-12-18 22:56:09:183 - [ERROR] - [flv_stat_c::addVideoTag] !=== v_pts error recurrence, nDeltaPts= -179ms, pts: new=900 last=1079
+[836]2020-12-18 22:56:09:183 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1444
+[836]2020-12-18 22:56:09:183 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1461
+[836]2020-12-18 22:56:09:183 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1490
+[836]2020-12-18 22:56:09:183 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1510
+[836]2020-12-18 22:56:09:183 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1402
+[836]2020-12-18 22:56:09:183 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1422
+[836]2020-12-18 22:56:09:183 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1460
+[836]2020-12-18 22:56:09:183 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1472
+[836]2020-12-18 22:56:09:183 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1179
+[836]2020-12-18 22:56:09:183 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1199
+[836]2020-12-18 22:56:09:183 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1233
+[836]2020-12-18 22:56:09:184 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1249
+[836]2020-12-18 22:56:09:184 - [ERROR] - [flv_stat_c::addVideoTag] !=== v_pts error recurrence, nDeltaPts= -140ms, pts: new=1161 last=1301
+[836]2020-12-18 22:56:09:184 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1389
+[836]2020-12-18 22:56:09:184 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1409
+[836]2020-12-18 22:56:09:184 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1446
+[836]2020-12-18 22:56:09:184 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1459
+[836]2020-12-18 22:56:09:184 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1387
+[836]2020-12-18 22:56:09:184 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1418
+[836]2020-12-18 22:56:09:184 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1437
+[836]2020-12-18 22:56:09:184 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1457
+[836]2020-12-18 22:56:09:184 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1316
+[836]2020-12-18 22:56:09:184 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1347
+[836]2020-12-18 22:56:09:185 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1366
+[836]2020-12-18 22:56:09:185 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1386
+[836]2020-12-18 22:56:09:185 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1078
+[836]2020-12-18 22:56:09:185 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1098
+[836]2020-12-18 22:56:09:185 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1129
+[836]2020-12-18 22:56:09:185 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1148
+[836]2020-12-18 22:56:09:185 - [ERROR] - [flv_stat_c::addVideoTag] !=== v_pts error recurrence, nDeltaPts= -210ms, pts: new=1472 last=1682
+[836]2020-12-18 22:56:09:185 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1358
+[836]2020-12-18 22:56:09:185 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1384
+[836]2020-12-18 22:56:09:185 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1408
+[836]2020-12-18 22:56:09:185 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1428
+[836]2020-12-18 22:56:09:185 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1325
+[836]2020-12-18 22:56:09:186 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1345
+[836]2020-12-18 22:56:09:186 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1376
+[836]2020-12-18 22:56:09:186 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1395
+[836]2020-12-18 22:56:09:186 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1070
+[836]2020-12-18 22:56:09:186 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1090
+[836]2020-12-18 22:56:09:186 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1154
+[836]2020-12-18 22:56:09:186 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1157
+[836]2020-12-18 22:56:09:186 - [ERROR] - [flv_stat_c::addVideoTag] !=== v_pts error recurrence, nDeltaPts= -136ms, pts: new=1764 last=1900
+[836]2020-12-18 22:56:09:186 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1293
+[836]2020-12-18 22:56:09:186 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1302
+[836]2020-12-18 22:56:09:186 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1336
+[836]2020-12-18 22:56:09:186 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1356
+[836]2020-12-18 22:56:09:187 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1290
+[836]2020-12-18 22:56:09:187 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1303
+[836]2020-12-18 22:56:09:187 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1321
+[836]2020-12-18 22:56:09:187 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1360
+[836]2020-12-18 22:56:09:187 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1070
+[836]2020-12-18 22:56:09:187 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1086
+[836]2020-12-18 22:56:09:187 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1102
+[836]2020-12-18 22:56:09:187 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1130
+[836]2020-12-18 22:56:09:188 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1152
+[836]2020-12-18 22:56:09:188 - [ERROR] - [flv_stat_c::addVideoTag] !=== v_pts error recurrence, nDeltaPts= -150ms, pts: new=1970 last=2120
+[836]2020-12-18 22:56:09:188 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1302
+[836]2020-12-18 22:56:09:188 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1322
+[836]2020-12-18 22:56:09:188 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1350
+[836]2020-12-18 22:56:09:188 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1376
+[836]2020-12-18 22:56:09:188 - [INFO] - [CProcessProgressDlg::updateStatus] !==== come in, rate= 24%, file= F:\zmdisk\河南长垣KTV火灾.flv
+[836]2020-12-18 22:56:09:194 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1306
+[836]2020-12-18 22:56:09:194 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1320
+[836]2020-12-18 22:56:09:194 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1361
+[836]2020-12-18 22:56:09:195 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1370
+[836]2020-12-18 22:56:09:195 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1391
+[836]2020-12-18 22:56:09:195 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1161
+[836]2020-12-18 22:56:09:195 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1203
+[836]2020-12-18 22:56:09:195 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1210
+[836]2020-12-18 22:56:09:195 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1230
+[836]2020-12-18 22:56:09:195 - [ERROR] - [flv_stat_c::addVideoTag] !=== v_pts error recurrence, nDeltaPts= -80ms, pts: new=2190 last=2270
+[836]2020-12-18 22:56:09:195 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1310
+[836]2020-12-18 22:56:09:195 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1344
+[836]2020-12-18 22:56:09:195 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1366
+[836]2020-12-18 22:56:09:195 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1381
+[836]2020-12-18 22:56:09:195 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1227
+[836]2020-12-18 22:56:09:196 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1227
+[836]2020-12-18 22:56:09:196 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1227
+[836]2020-12-18 22:56:09:196 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1268
+[836]2020-12-18 22:56:09:196 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1277
+[836]2020-12-18 22:56:09:196 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1296
+[836]2020-12-18 22:56:09:196 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1090
+[836]2020-12-18 22:56:09:196 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1120
+[836]2020-12-18 22:56:09:196 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1141
+[836]2020-12-18 22:56:09:196 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1174
+[836]2020-12-18 22:56:09:197 - [ERROR] - [flv_stat_c::addVideoTag] !=== v_pts error recurrence, nDeltaPts= -140ms, pts: new=2410 last=2550
+[836]2020-12-18 22:56:09:197 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1314
+[836]2020-12-18 22:56:09:197 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1324
+[836]2020-12-18 22:56:09:197 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1363
+[836]2020-12-18 22:56:09:197 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1370
+[836]2020-12-18 22:56:09:197 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1390
+[836]2020-12-18 22:56:09:197 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1320
+[836]2020-12-18 22:56:09:197 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1351
+[836]2020-12-18 22:56:09:197 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1376
+[836]2020-12-18 22:56:09:198 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1390
+[836]2020-12-18 22:56:09:198 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1180
+[836]2020-12-18 22:56:09:198 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1210
+[836]2020-12-18 22:56:09:198 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1230
+[836]2020-12-18 22:56:09:198 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1250
+[836]2020-12-18 22:56:09:198 - [ERROR] - [flv_stat_c::addVideoTag] !=== v_pts error recurrence, nDeltaPts= -70ms, pts: new=2620 last=2690
+[836]2020-12-18 22:56:09:198 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1320
+[836]2020-12-18 22:56:09:198 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1355
+[836]2020-12-18 22:56:09:198 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1373
+[836]2020-12-18 22:56:09:198 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1390
+[836]2020-12-18 22:56:09:199 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1250
+[836]2020-12-18 22:56:09:199 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1309
+[836]2020-12-18 22:56:09:199 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1309
+[836]2020-12-18 22:56:09:199 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1321
+[836]2020-12-18 22:56:09:199 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1251
+[836]2020-12-18 22:56:09:199 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1280
+[836]2020-12-18 22:56:09:199 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1306
+[836]2020-12-18 22:56:09:199 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1320
+[836]2020-12-18 22:56:09:199 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1250
+[836]2020-12-18 22:56:09:199 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1290
+[836]2020-12-18 22:56:09:199 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1301
+[836]2020-12-18 22:56:09:199 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1320
+[836]2020-12-18 22:56:09:200 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1250
+[836]2020-12-18 22:56:09:200 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1280
+[836]2020-12-18 22:56:09:200 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1301
+[836]2020-12-18 22:56:09:200 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1320
+[836]2020-12-18 22:56:09:200 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1170
+[836]2020-12-18 22:56:09:200 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1200
+[836]2020-12-18 22:56:09:200 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1228
+[836]2020-12-18 22:56:09:200 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1241
+[836]2020-12-18 22:56:09:200 - [ERROR] - [flv_stat_c::addVideoTag] !=== v_pts error recurrence, nDeltaPts= -66ms, pts: new=3054 last=3120
+[836]2020-12-18 22:56:09:200 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1307
+[836]2020-12-18 22:56:09:200 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1338
+[836]2020-12-18 22:56:09:200 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1356
+[836]2020-12-18 22:56:09:201 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1376
+[836]2020-12-18 22:56:09:201 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1158
+[836]2020-12-18 22:56:09:201 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1178
+[836]2020-12-18 22:56:09:201 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1209
+[836]2020-12-18 22:56:09:201 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1228
+[836]2020-12-18 22:56:09:201 - [ERROR] - [flv_stat_c::addVideoTag] !=== v_pts error recurrence, nDeltaPts= -82ms, pts: new=3190 last=3272
+[836]2020-12-18 22:56:09:201 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1310
+[836]2020-12-18 22:56:09:201 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1336
+[836]2020-12-18 22:56:09:201 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1360
+[836]2020-12-18 22:56:09:201 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1380
+[836]2020-12-18 22:56:09:201 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1070
+[836]2020-12-18 22:56:09:202 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1123
+[836]2020-12-18 22:56:09:202 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1125
+[836]2020-12-18 22:56:09:202 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1140
+[836]2020-12-18 22:56:09:202 - [ERROR] - [flv_stat_c::addVideoTag] !=== v_pts error recurrence, nDeltaPts= -154ms, pts: new=3346 last=3500
+[836]2020-12-18 22:56:09:202 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1294
+[836]2020-12-18 22:56:09:202 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1314
+[836]2020-12-18 22:56:09:202 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1345
+[836]2020-12-18 22:56:09:202 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1379
+[836]2020-12-18 22:56:09:202 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1294
+[836]2020-12-18 22:56:09:202 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1306
+[836]2020-12-18 22:56:09:202 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1329
+[836]2020-12-18 22:56:09:202 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1349
+[836]2020-12-18 22:56:09:202 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1371
+[836]2020-12-18 22:56:09:203 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1078
+[836]2020-12-18 22:56:09:203 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1106
+[836]2020-12-18 22:56:09:203 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1135
+[836]2020-12-18 22:56:09:203 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1146
+[836]2020-12-18 22:56:09:203 - [ERROR] - [flv_stat_c::addVideoTag] !=== v_pts error recurrence, nDeltaPts= -153ms, pts: new=3571 last=3724
+[836]2020-12-18 22:56:09:203 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1299
+[836]2020-12-18 22:56:09:203 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1329
+[836]2020-12-18 22:56:09:203 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1349
+[836]2020-12-18 22:56:09:203 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1369
+[836]2020-12-18 22:56:09:203 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1300
+[836]2020-12-18 22:56:09:203 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1330
+[836]2020-12-18 22:56:09:204 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1350
+[836]2020-12-18 22:56:09:204 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1374
+[836]2020-12-18 22:56:09:204 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1074
+[836]2020-12-18 22:56:09:204 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1118
+[836]2020-12-18 22:56:09:204 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1121
+[836]2020-12-18 22:56:09:204 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1141
+[836]2020-12-18 22:56:09:204 - [ERROR] - [flv_stat_c::addVideoTag] !=== v_pts error recurrence, nDeltaPts= -140ms, pts: new=3800 last=3940
+[836]2020-12-18 22:56:09:204 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1281
+[836]2020-12-18 22:56:09:204 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1300
+[836]2020-12-18 22:56:09:204 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1346
+[836]2020-12-18 22:56:09:204 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1350
+[836]2020-12-18 22:56:09:204 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1280
+[836]2020-12-18 22:56:09:204 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1301
+[836]2020-12-18 22:56:09:205 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1331
+[836]2020-12-18 22:56:09:205 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1350
+[836]2020-12-18 22:56:09:205 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1070
+[836]2020-12-18 22:56:09:205 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1090
+[836]2020-12-18 22:56:09:205 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1120
+[836]2020-12-18 22:56:09:205 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1140
+[836]2020-12-18 22:56:09:205 - [ERROR] - [flv_stat_c::addVideoTag] !=== v_pts error recurrence, nDeltaPts= -140ms, pts: new=4010 last=4150
+[836]2020-12-18 22:56:09:205 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1280
+[836]2020-12-18 22:56:09:205 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1300
+[836]2020-12-18 22:56:09:205 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1335
+[836]2020-12-18 22:56:09:205 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1350
+[836]2020-12-18 22:56:09:206 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1279
+[836]2020-12-18 22:56:09:206 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1307
+[836]2020-12-18 22:56:09:206 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1330
+[836]2020-12-18 22:56:09:206 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1349
+[836]2020-12-18 22:56:09:206 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1069
+[836]2020-12-18 22:56:09:206 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1089
+[836]2020-12-18 22:56:09:206 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1121
+[836]2020-12-18 22:56:09:206 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1139
+[836]2020-12-18 22:56:09:206 - [ERROR] - [flv_stat_c::addVideoTag] !=== v_pts error recurrence, nDeltaPts= -141ms, pts: new=4220 last=4361
+[836]2020-12-18 22:56:09:206 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1280
+[836]2020-12-18 22:56:09:206 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1310
+[836]2020-12-18 22:56:09:206 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1330
+[836]2020-12-18 22:56:09:207 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1350
+[836]2020-12-18 22:56:09:207 - [INFO] - [CProcessProgressDlg::updateStatus] !==== come in, rate= 48%, file= F:\zmdisk\河南长垣KTV火灾.flv
+[836]2020-12-18 22:56:09:210 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1280
+[836]2020-12-18 22:56:09:210 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1315
+[836]2020-12-18 22:56:09:210 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1330
+[836]2020-12-18 22:56:09:210 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1350
+[836]2020-12-18 22:56:09:210 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1210
+[836]2020-12-18 22:56:09:210 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1230
+[836]2020-12-18 22:56:09:211 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1277
+[836]2020-12-18 22:56:09:211 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1207
+[836]2020-12-18 22:56:09:211 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1207
+[836]2020-12-18 22:56:09:211 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1207
+[836]2020-12-18 22:56:09:211 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1235
+[836]2020-12-18 22:56:09:211 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1236
+[836]2020-12-18 22:56:09:211 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1251
+[836]2020-12-18 22:56:09:211 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1281
+[836]2020-12-18 22:56:09:211 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1056
+[836]2020-12-18 22:56:09:211 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1076
+[836]2020-12-18 22:56:09:212 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1095
+[836]2020-12-18 22:56:09:212 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1130
+[836]2020-12-18 22:56:09:212 - [ERROR] - [flv_stat_c::addVideoTag] !=== v_pts error recurrence, nDeltaPts= -155ms, pts: new=4570 last=4725
+[836]2020-12-18 22:56:09:212 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1285
+[836]2020-12-18 22:56:09:212 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1300
+[836]2020-12-18 22:56:09:212 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1320
+[836]2020-12-18 22:56:09:212 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1350
+[836]2020-12-18 22:56:09:212 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1371
+[836]2020-12-18 22:56:09:212 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1301
+[836]2020-12-18 22:56:09:212 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1322
+[836]2020-12-18 22:56:09:213 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1350
+[836]2020-12-18 22:56:09:213 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1370
+[836]2020-12-18 22:56:09:213 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1140
+[836]2020-12-18 22:56:09:213 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1160
+[836]2020-12-18 22:56:09:213 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1190
+[836]2020-12-18 22:56:09:213 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1211
+[836]2020-12-18 22:56:09:213 - [ERROR] - [flv_stat_c::addVideoTag] !=== v_pts error recurrence, nDeltaPts= -68ms, pts: new=4802 last=4870
+[836]2020-12-18 22:56:09:213 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1279
+[836]2020-12-18 22:56:09:213 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1298
+[836]2020-12-18 22:56:09:214 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1336
+[836]2020-12-18 22:56:09:214 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1349
+[836]2020-12-18 22:56:09:214 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1137
+[836]2020-12-18 22:56:09:214 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1157
+[836]2020-12-18 22:56:09:214 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1199
+[836]2020-12-18 22:56:09:214 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1206
+[836]2020-12-18 22:56:09:214 - [ERROR] - [flv_stat_c::addVideoTag] !=== v_pts error recurrence, nDeltaPts= -74ms, pts: new=4940 last=5014
+[836]2020-12-18 22:56:09:214 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1280
+[836]2020-12-18 22:56:09:214 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1300
+[836]2020-12-18 22:56:09:214 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1335
+[836]2020-12-18 22:56:09:214 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1358
+[836]2020-12-18 22:56:09:214 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1148
+[836]2020-12-18 22:56:09:215 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1160
+[836]2020-12-18 22:56:09:215 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1191
+[836]2020-12-18 22:56:09:215 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1210
+[836]2020-12-18 22:56:09:215 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1251
+[836]2020-12-18 22:56:09:215 - [ERROR] - [flv_stat_c::addVideoTag] !=== v_pts error recurrence, nDeltaPts= -69ms, pts: new=5081 last=5150
+[836]2020-12-18 22:56:09:215 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1320
+[836]2020-12-18 22:56:09:215 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1331
+[836]2020-12-18 22:56:09:215 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1357
+[836]2020-12-18 22:56:09:215 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1370
+[836]2020-12-18 22:56:09:215 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1410
+[836]2020-12-18 22:56:09:215 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1201
+[836]2020-12-18 22:56:09:215 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1210
+[836]2020-12-18 22:56:09:216 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1237
+[836]2020-12-18 22:56:09:216 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1259
+[836]2020-12-18 22:56:09:216 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1281
+[836]2020-12-18 22:56:09:216 - [ERROR] - [flv_stat_c::addVideoTag] !=== v_pts error recurrence, nDeltaPts= -70ms, pts: new=5220 last=5290
+[836]2020-12-18 22:56:09:216 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1351
+[836]2020-12-18 22:56:09:216 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1396
+[836]2020-12-18 22:56:09:216 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1396
+[836]2020-12-18 22:56:09:216 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1421
+[836]2020-12-18 22:56:09:216 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1141
+[836]2020-12-18 22:56:09:216 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1162
+[836]2020-12-18 22:56:09:216 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1230
+[836]2020-12-18 22:56:09:216 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1234
+[836]2020-12-18 22:56:09:217 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1234
+[836]2020-12-18 22:56:09:217 - [ERROR] - [flv_stat_c::addVideoTag] !=== v_pts error recurrence, nDeltaPts= -140ms, pts: new=5360 last=5500
+[836]2020-12-18 22:56:09:217 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1374
+[836]2020-12-18 22:56:09:217 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1410
+[836]2020-12-18 22:56:09:217 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1441
+[836]2020-12-18 22:56:09:217 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1448
+[836]2020-12-18 22:56:09:218 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1378
+[836]2020-12-18 22:56:09:218 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1399
+[836]2020-12-18 22:56:09:218 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1444
+[836]2020-12-18 22:56:09:218 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1445
+[836]2020-12-18 22:56:09:218 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1168
+[836]2020-12-18 22:56:09:218 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1184
+[836]2020-12-18 22:56:09:218 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1213
+[836]2020-12-18 22:56:09:219 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1233
+[836]2020-12-18 22:56:09:219 - [ERROR] - [flv_stat_c::addVideoTag] !=== v_pts error recurrence, nDeltaPts= -137ms, pts: new=5570 last=5707
+[836]2020-12-18 22:56:09:219 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1370
+[836]2020-12-18 22:56:09:219 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1390
+[836]2020-12-18 22:56:09:219 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1420
+[836]2020-12-18 22:56:09:219 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1444
+[836]2020-12-18 22:56:09:219 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1374
+[836]2020-12-18 22:56:09:219 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1390
+[836]2020-12-18 22:56:09:219 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1427
+[836]2020-12-18 22:56:09:219 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1441
+[836]2020-12-18 22:56:09:219 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1140
+[836]2020-12-18 22:56:09:220 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1159
+[836]2020-12-18 22:56:09:220 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1179
+[836]2020-12-18 22:56:09:220 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1209
+[836]2020-12-18 22:56:09:220 - [ERROR] - [flv_stat_c::addVideoTag] !=== v_pts error recurrence, nDeltaPts= -160ms, pts: new=5781 last=5941
+[836]2020-12-18 22:56:09:220 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1369
+[836]2020-12-18 22:56:09:220 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1389
+[836]2020-12-18 22:56:09:220 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1410
+[836]2020-12-18 22:56:09:220 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1439
+[836]2020-12-18 22:56:09:220 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1365
+[836]2020-12-18 22:56:09:220 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1385
+[836]2020-12-18 22:56:09:220 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1433
+[836]2020-12-18 22:56:09:220 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1137
+[836]2020-12-18 22:56:09:221 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1148
+[836]2020-12-18 22:56:09:221 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1179
+[836]2020-12-18 22:56:09:221 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1180
+[836]2020-12-18 22:56:09:221 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1209
+[836]2020-12-18 22:56:09:221 - [ERROR] - [flv_stat_c::addVideoTag] !=== v_pts error recurrence, nDeltaPts= -141ms, pts: new=6010 last=6151
+[836]2020-12-18 22:56:09:221 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1350
+[836]2020-12-18 22:56:09:221 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1378
+[836]2020-12-18 22:56:09:221 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1390
+[836]2020-12-18 22:56:09:221 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1420
+[836]2020-12-18 22:56:09:221 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1349
+[836]2020-12-18 22:56:09:221 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1369
+[836]2020-12-18 22:56:09:222 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1390
+[836]2020-12-18 22:56:09:222 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1419
+[836]2020-12-18 22:56:09:222 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1099
+[836]2020-12-18 22:56:09:222 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1130
+[836]2020-12-18 22:56:09:222 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1139
+[836]2020-12-18 22:56:09:222 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1169
+[836]2020-12-18 22:56:09:222 - [ERROR] - [flv_stat_c::addVideoTag] !=== v_pts error recurrence, nDeltaPts= -181ms, pts: new=6220 last=6401
+[836]2020-12-18 22:56:09:222 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1350
+[836]2020-12-18 22:56:09:222 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1391
+[836]2020-12-18 22:56:09:222 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1391
+[836]2020-12-18 22:56:09:222 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1420
+[836]2020-12-18 22:56:09:222 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1342
+[836]2020-12-18 22:56:09:223 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1362
+[836]2020-12-18 22:56:09:223 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1390
+[836]2020-12-18 22:56:09:223 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1425
+[836]2020-12-18 22:56:09:223 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1082
+[836]2020-12-18 22:56:09:223 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1091
+[836]2020-12-18 22:56:09:223 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1114
+[836]2020-12-18 22:56:09:223 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1139
+[836]2020-12-18 22:56:09:223 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1180
+[836]2020-12-18 22:56:09:223 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1180
+[836]2020-12-18 22:56:09:223 - [ERROR] - [flv_stat_c::addVideoTag] !=== v_pts error recurrence, nDeltaPts= -150ms, pts: new=6491 last=6641
+[836]2020-12-18 22:56:09:223 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1330
+[836]2020-12-18 22:56:09:223 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1382
+[836]2020-12-18 22:56:09:224 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1384
+[836]2020-12-18 22:56:09:224 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1401
+[836]2020-12-18 22:56:09:224 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1321
+[836]2020-12-18 22:56:09:224 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1340
+[836]2020-12-18 22:56:09:224 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1378
+[836]2020-12-18 22:56:09:224 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1393
+[836]2020-12-18 22:56:09:224 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1234
+[836]2020-12-18 22:56:09:224 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1234
+[836]2020-12-18 22:56:09:224 - [INFO] - [CProcessProgressDlg::updateStatus] !==== come in, rate= 72%, file= F:\zmdisk\河南长垣KTV火灾.flv
+[836]2020-12-18 22:56:09:228 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1234
+[836]2020-12-18 22:56:09:228 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1253
+[836]2020-12-18 22:56:09:228 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1307
+[836]2020-12-18 22:56:09:228 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1307
+[836]2020-12-18 22:56:09:228 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1097
+[836]2020-12-18 22:56:09:228 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1123
+[836]2020-12-18 22:56:09:228 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1140
+[836]2020-12-18 22:56:09:228 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1161
+[836]2020-12-18 22:56:09:229 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1181
+[836]2020-12-18 22:56:09:229 - [ERROR] - [flv_stat_c::addVideoTag] !=== v_pts error recurrence, nDeltaPts= -139ms, pts: new=6801 last=6940
+[836]2020-12-18 22:56:09:229 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1320
+[836]2020-12-18 22:56:09:229 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1356
+[836]2020-12-18 22:56:09:229 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1369
+[836]2020-12-18 22:56:09:229 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1391
+[836]2020-12-18 22:56:09:229 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1318
+[836]2020-12-18 22:56:09:229 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1346
+[836]2020-12-18 22:56:09:229 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1367
+[836]2020-12-18 22:56:09:229 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1406
+[836]2020-12-18 22:56:09:229 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1130
+[836]2020-12-18 22:56:09:230 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1142
+[836]2020-12-18 22:56:09:230 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1160
+[836]2020-12-18 22:56:09:230 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1181
+[836]2020-12-18 22:56:09:230 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1219
+[836]2020-12-18 22:56:09:230 - [ERROR] - [flv_stat_c::addVideoTag] !=== v_pts error recurrence, nDeltaPts= -136ms, pts: new=7014 last=7150
+[836]2020-12-18 22:56:09:230 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1355
+[836]2020-12-18 22:56:09:230 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1378
+[836]2020-12-18 22:56:09:230 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1387
+[836]2020-12-18 22:56:09:230 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1417
+[836]2020-12-18 22:56:09:230 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1436
+[836]2020-12-18 22:56:09:230 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1369
+[836]2020-12-18 22:56:09:230 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1404
+[836]2020-12-18 22:56:09:231 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1410
+[836]2020-12-18 22:56:09:231 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1453
+[836]2020-12-18 22:56:09:231 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1174
+[836]2020-12-18 22:56:09:231 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1184
+[836]2020-12-18 22:56:09:231 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1201
+[836]2020-12-18 22:56:09:232 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1233
+[836]2020-12-18 22:56:09:232 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1252
+[836]2020-12-18 22:56:09:232 - [ERROR] - [flv_stat_c::addVideoTag] !=== v_pts error recurrence, nDeltaPts= -140ms, pts: new=7220 last=7360
+[836]2020-12-18 22:56:09:232 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1392
+[836]2020-12-18 22:56:09:232 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1413
+[836]2020-12-18 22:56:09:232 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1440
+[836]2020-12-18 22:56:09:232 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1464
+[836]2020-12-18 22:56:09:232 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1396
+[836]2020-12-18 22:56:09:232 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1413
+[836]2020-12-18 22:56:09:232 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1444
+[836]2020-12-18 22:56:09:232 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1463
+[836]2020-12-18 22:56:09:233 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1181
+[836]2020-12-18 22:56:09:233 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1224
+[836]2020-12-18 22:56:09:233 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1244
+[836]2020-12-18 22:56:09:233 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1250
+[836]2020-12-18 22:56:09:233 - [ERROR] - [flv_stat_c::addVideoTag] !=== v_pts error recurrence, nDeltaPts= -140ms, pts: new=7430 last=7570
+[836]2020-12-18 22:56:09:233 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1390
+[836]2020-12-18 22:56:09:233 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1411
+[836]2020-12-18 22:56:09:233 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1441
+[836]2020-12-18 22:56:09:233 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1487
+[836]2020-12-18 22:56:09:233 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1487
+[836]2020-12-18 22:56:09:233 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1417
+[836]2020-12-18 22:56:09:233 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1449
+[836]2020-12-18 22:56:09:234 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1462
+[836]2020-12-18 22:56:09:234 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1480
+[836]2020-12-18 22:56:09:234 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1511
+[836]2020-12-18 22:56:09:234 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1190
+[836]2020-12-18 22:56:09:234 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1212
+[836]2020-12-18 22:56:09:234 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1231
+[836]2020-12-18 22:56:09:234 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1268
+[836]2020-12-18 22:56:09:234 - [ERROR] - [flv_stat_c::addVideoTag] !=== v_pts error recurrence, nDeltaPts= -181ms, pts: new=7640 last=7821
+[836]2020-12-18 22:56:09:234 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1449
+[836]2020-12-18 22:56:09:234 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1461
+[836]2020-12-18 22:56:09:234 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1485
+[836]2020-12-18 22:56:09:235 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1512
+[836]2020-12-18 22:56:09:235 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1530
+[836]2020-12-18 22:56:09:235 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1447
+[836]2020-12-18 22:56:09:235 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1498
+[836]2020-12-18 22:56:09:235 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1498
+[836]2020-12-18 22:56:09:236 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1519
+[836]2020-12-18 22:56:09:236 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1205
+[836]2020-12-18 22:56:09:236 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1225
+[836]2020-12-18 22:56:09:236 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1248
+[836]2020-12-18 22:56:09:236 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1279
+[836]2020-12-18 22:56:09:236 - [ERROR] - [flv_stat_c::addVideoTag] !=== v_pts error recurrence, nDeltaPts= -145ms, pts: new=7892 last=8037
+[836]2020-12-18 22:56:09:236 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1424
+[836]2020-12-18 22:56:09:236 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1438
+[836]2020-12-18 22:56:09:236 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1496
+[836]2020-12-18 22:56:09:236 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1502
+[836]2020-12-18 22:56:09:237 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1430
+[836]2020-12-18 22:56:09:237 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1456
+[836]2020-12-18 22:56:09:237 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1458
+[836]2020-12-18 22:56:09:237 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1487
+[836]2020-12-18 22:56:09:237 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1529
+[836]2020-12-18 22:56:09:237 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1530
+[836]2020-12-18 22:56:09:237 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1302
+[836]2020-12-18 22:56:09:237 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1337
+[836]2020-12-18 22:56:09:237 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1349
+[836]2020-12-18 22:56:09:237 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1368
+[836]2020-12-18 22:56:09:237 - [ERROR] - [flv_stat_c::addVideoTag] !=== v_pts error recurrence, nDeltaPts= -71ms, pts: new=8121 last=8192
+[836]2020-12-18 22:56:09:237 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1439
+[836]2020-12-18 22:56:09:238 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1483
+[836]2020-12-18 22:56:09:238 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1489
+[836]2020-12-18 22:56:09:238 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1509
+[836]2020-12-18 22:56:09:238 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1180
+[836]2020-12-18 22:56:09:238 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1210
+[836]2020-12-18 22:56:09:238 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1230
+[836]2020-12-18 22:56:09:238 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1250
+[836]2020-12-18 22:56:09:238 - [ERROR] - [flv_stat_c::addVideoTag] !=== v_pts error recurrence, nDeltaPts= -170ms, pts: new=8280 last=8450
+[836]2020-12-18 22:56:09:238 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1420
+[836]2020-12-18 22:56:09:238 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1451
+[836]2020-12-18 22:56:09:238 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1470
+[836]2020-12-18 22:56:09:238 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1490
+[836]2020-12-18 22:56:09:239 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1401
+[836]2020-12-18 22:56:09:239 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1435
+[836]2020-12-18 22:56:09:239 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1451
+[836]2020-12-18 22:56:09:239 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1499
+[836]2020-12-18 22:56:09:239 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1500
+[836]2020-12-18 22:56:09:239 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1185
+[836]2020-12-18 22:56:09:239 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1207
+[836]2020-12-18 22:56:09:239 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1226
+[836]2020-12-18 22:56:09:239 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1252
+[836]2020-12-18 22:56:09:239 - [ERROR] - [flv_stat_c::addVideoTag] !=== v_pts error recurrence, nDeltaPts= -150ms, pts: new=8534 last=8684
+[836]2020-12-18 22:56:09:239 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1402
+[836]2020-12-18 22:56:09:239 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1426
+[836]2020-12-18 22:56:09:239 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1446
+[836]2020-12-18 22:56:09:240 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1477
+[836]2020-12-18 22:56:09:240 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1399
+[836]2020-12-18 22:56:09:240 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1419
+[836]2020-12-18 22:56:09:240 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1450
+[836]2020-12-18 22:56:09:240 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1458
+[836]2020-12-18 22:56:09:240 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1495
+[836]2020-12-18 22:56:09:240 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1190
+[836]2020-12-18 22:56:09:240 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1204
+[836]2020-12-18 22:56:09:240 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1223
+[836]2020-12-18 22:56:09:240 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1253
+[836]2020-12-18 22:56:09:240 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1273
+[836]2020-12-18 22:56:09:240 - [ERROR] - [flv_stat_c::addVideoTag] !=== v_pts error recurrence, nDeltaPts= -166ms, pts: new=8751 last=8917
+[836]2020-12-18 22:56:09:241 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1439
+[836]2020-12-18 22:56:09:241 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1459
+[836]2020-12-18 22:56:09:241 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1490
+[836]2020-12-18 22:56:09:241 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1524
+[836]2020-12-18 22:56:09:241 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1455
+[836]2020-12-18 22:56:09:241 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1463
+[836]2020-12-18 22:56:09:241 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1491
+[836]2020-12-18 22:56:09:241 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1526
+[836]2020-12-18 22:56:09:241 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1335
+[836]2020-12-18 22:56:09:241 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1335
+[836]2020-12-18 22:56:09:242 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1335
+[836]2020-12-18 22:56:09:242 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1363
+[836]2020-12-18 22:56:09:242 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1371
+[836]2020-12-18 22:56:09:242 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1404
+[836]2020-12-18 22:56:09:242 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1173
+[836]2020-12-18 22:56:09:242 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1183
+[836]2020-12-18 22:56:09:242 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1231
+[836]2020-12-18 22:56:09:242 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1232
+[836]2020-12-18 22:56:09:242 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1249
+[836]2020-12-18 22:56:09:242 - [ERROR] - [flv_stat_c::addVideoTag] !=== v_pts error recurrence, nDeltaPts= -153ms, pts: new=9089 last=9242
+[836]2020-12-18 22:56:09:243 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1402
+[836]2020-12-18 22:56:09:243 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1451
+[836]2020-12-18 22:56:09:243 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1452
+[836]2020-12-18 22:56:09:243 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1474
+[836]2020-12-18 22:56:09:243 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1393
+[836]2020-12-18 22:56:09:243 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1419
+[836]2020-12-18 22:56:09:243 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1442
+[836]2020-12-18 22:56:09:243 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1461
+[836]2020-12-18 22:56:09:244 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1315
+[836]2020-12-18 22:56:09:244 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1335
+[836]2020-12-18 22:56:09:244 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1368
+[836]2020-12-18 22:56:09:244 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1385
+[836]2020-12-18 22:56:09:244 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1141
+[836]2020-12-18 22:56:09:244 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1168
+[836]2020-12-18 22:56:09:244 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1191
+[836]2020-12-18 22:56:09:244 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1211
+[836]2020-12-18 22:56:09:244 - [ERROR] - [flv_stat_c::addVideoTag] !=== v_pts error recurrence, nDeltaPts= -172ms, pts: new=9388 last=9560
+[836]2020-12-18 22:56:09:244 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1383
+[836]2020-12-18 22:56:09:244 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1415
+[836]2020-12-18 22:56:09:245 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1433
+[836]2020-12-18 22:56:09:245 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1485
+[836]2020-12-18 22:56:09:245 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1486
+[836]2020-12-18 22:56:09:245 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1381
+[836]2020-12-18 22:56:09:245 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1398
+[836]2020-12-18 22:56:09:245 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1418
+[836]2020-12-18 22:56:09:245 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1445
+[836]2020-12-18 22:56:09:245 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1468
+[836]2020-12-18 22:56:09:245 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1191
+[836]2020-12-18 22:56:09:245 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1211
+[836]2020-12-18 22:56:09:245 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1246
+[836]2020-12-18 22:56:09:246 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1262
+[836]2020-12-18 22:56:09:246 - [ERROR] - [flv_stat_c::addVideoTag] !=== v_pts error recurrence, nDeltaPts= -140ms, pts: new=9630 last=9770
+[836]2020-12-18 22:56:09:246 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1402
+[836]2020-12-18 22:56:09:246 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1431
+[836]2020-12-18 22:56:09:246 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1441
+[836]2020-12-18 22:56:09:246 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1471
+[836]2020-12-18 22:56:09:246 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1401
+[836]2020-12-18 22:56:09:246 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1421
+[836]2020-12-18 22:56:09:246 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1441
+[836]2020-12-18 22:56:09:247 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1471
+[836]2020-12-18 22:56:09:247 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1160
+[836]2020-12-18 22:56:09:247 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1191
+[836]2020-12-18 22:56:09:247 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1200
+[836]2020-12-18 22:56:09:247 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1220
+[836]2020-12-18 22:56:09:247 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1257
+[836]2020-12-18 22:56:09:247 - [ERROR] - [flv_stat_c::addVideoTag] !=== v_pts error recurrence, nDeltaPts= -143ms, pts: new=9868 last=10011
+[836]2020-12-18 22:56:09:247 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1400
+[836]2020-12-18 22:56:09:247 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1413
+[836]2020-12-18 22:56:09:247 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1433
+[836]2020-12-18 22:56:09:247 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1472
+[836]2020-12-18 22:56:09:247 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1404
+[836]2020-12-18 22:56:09:248 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1420
+[836]2020-12-18 22:56:09:248 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1435
+[836]2020-12-18 22:56:09:248 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1466
+[836]2020-12-18 22:56:09:248 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1485
+[836]2020-12-18 22:56:09:248 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1146
+[836]2020-12-18 22:56:09:248 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1184
+[836]2020-12-18 22:56:09:248 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1201
+[836]2020-12-18 22:56:09:248 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1217
+[836]2020-12-18 22:56:09:248 - [ERROR] - [flv_stat_c::addVideoTag] !=== v_pts error recurrence, nDeltaPts= -168ms, pts: new=10107 last=10275
+[836]2020-12-18 22:56:09:248 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1385
+[836]2020-12-18 22:56:09:248 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1422
+[836]2020-12-18 22:56:09:249 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1442
+[836]2020-12-18 22:56:09:249 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1454
+[836]2020-12-18 22:56:09:249 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1371
+[836]2020-12-18 22:56:09:249 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1391
+[836]2020-12-18 22:56:09:249 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1421
+[836]2020-12-18 22:56:09:249 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1441
+[836]2020-12-18 22:56:09:249 - [INFO] - [CProcessProgressDlg::updateStatus] !==== come in, rate= 97%, file= F:\zmdisk\河南长垣KTV火灾.flv
+[836]2020-12-18 22:56:09:252 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1140
+[836]2020-12-18 22:56:09:252 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1160
+[836]2020-12-18 22:56:09:252 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1194
+[836]2020-12-18 22:56:09:253 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1210
+[836]2020-12-18 22:56:09:253 - [ERROR] - [flv_stat_c::addVideoTag] !=== v_pts error recurrence, nDeltaPts= -145ms, pts: new=10346 last=10491
+[836]2020-12-18 22:56:09:253 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1355
+[836]2020-12-18 22:56:09:253 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1387
+[836]2020-12-18 22:56:09:253 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1405
+[836]2020-12-18 22:56:09:254 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1425
+[836]2020-12-18 22:56:09:254 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1356
+[836]2020-12-18 22:56:09:254 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1391
+[836]2020-12-18 22:56:09:254 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1405
+[836]2020-12-18 22:56:09:254 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1439
+[836]2020-12-18 22:56:09:254 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1153
+[836]2020-12-18 22:56:09:254 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1160
+[836]2020-12-18 22:56:09:254 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1190
+[836]2020-12-18 22:56:09:254 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1210
+[836]2020-12-18 22:56:09:254 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1236
+[836]2020-12-18 22:56:09:254 - [ERROR] - [flv_stat_c::addVideoTag] !=== v_pts error recurrence, nDeltaPts= -138ms, pts: new=10563 last=10701
+[836]2020-12-18 22:56:09:255 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1374
+[836]2020-12-18 22:56:09:255 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1389
+[836]2020-12-18 22:56:09:255 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1418
+[836]2020-12-18 22:56:09:255 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1438
+[836]2020-12-18 22:56:09:255 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1458
+[836]2020-12-18 22:56:09:255 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1390
+[836]2020-12-18 22:56:09:255 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1422
+[836]2020-12-18 22:56:09:255 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1440
+[836]2020-12-18 22:56:09:255 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1460
+[836]2020-12-18 22:56:09:255 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1320
+[836]2020-12-18 22:56:09:255 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1350
+[836]2020-12-18 22:56:09:256 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1370
+[836]2020-12-18 22:56:09:256 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1390
+[836]2020-12-18 22:56:09:256 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1129
+[836]2020-12-18 22:56:09:256 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1159
+[836]2020-12-18 22:56:09:256 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1179
+[836]2020-12-18 22:56:09:256 - [WARN] - [flv_stat_c::parseTag] !=== avsync too far, av_diff_ms= 1199
+[836]2020-12-18 22:56:09:256 - [ERROR] - [flv_stat_c::addVideoTag] !=== v_pts error recurrence, nDeltaPts= -159ms, pts: new=10873 last=11032
+[836]2020-12-18 22:56:09:256 - [WARN] - [flv_stat_c::addVideoTag] !=== avsync too far, av_diff_ms= -1358
+[836]2020-12-18 22:56:09:256 - [INFO] - [CProcessProgressDlg::updateStatus] !==== come in, rate= 99%, file= F:\zmdisk\河南长垣KTV火灾.flv
+[836]2020-12-18 22:56:09:261 - [INFO] - [flv_stat_c::collectAllInfo] log info: fatal= 0, error= 205, warning= 1
+[836]2020-12-18 22:56:09:261 - [INFO] - [flv_stat_c::collectAllInfo] audio, tot= 529, err_tot= 0, 66.9021Kbps, ts: ms0= 0 ms1= 12231 dura_ms= 12231, delta_ms: max= 108 ms, min= 0
+[836]2020-12-18 22:56:09:261 - [INFO] - [flv_stat_c::collectAllInfo] video, tot= 158, err_tot= 0, 1503.15Kbps, ts: ms0= 0 ms1= 10873 dura_ms= 10873, delta_ms: max= 343 ms, min= -210
+[836]2020-12-18 22:56:09:261 - [INFO] - [flv_stat_c::collectAllInfo] file_sz= 2157606, 1411.2 Kbps, play_ms= 12231 <00:00:12.231>
+[836]2020-12-18 22:56:09:261 - [INFO] - [CMainFrame::parseBody] end of parsed, spend 0s, t0= 1608303369, t1= 1608303369, file= F:\zmdisk\河南长垣KTV火灾.flv
+[836]2020-12-18 22:56:09:261 - [INFO] - [CMainFrame::onParseFile] === parsed end === F:\zmdisk\河南长垣KTV火灾.flv

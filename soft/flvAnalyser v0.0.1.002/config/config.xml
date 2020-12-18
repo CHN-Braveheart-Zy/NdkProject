@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- unit test system cfg -->
+<syscfg>
+  <common>
+    <!-- hyscoder sdk log level: (trace, debug, verbose, info, warning, error, quiet, 默认为info) -->
+    <hyscoder_log_level>info</hyscoder_log_level>
+    <show_help_info>0</show_help_info>
+    <show_thread_name>1</show_thread_name>
+    <calculate_psnr>1</calculate_psnr>
+    <parallel_maxcount>4</parallel_maxcount>
+    <input_path>e:/material/</input_path>
+    <output_path>g:/otest</output_path>
+    <linux_input_path>/home/material/</linux_input_path>
+    <linux_output_path>/home/otest/</linux_output_path>
+  </common>
+  <modules hyscoder="false" vpp="false" vss="false" tsparser="true" vdl="false" modext="false" />
+  <settings pcr_warn_ms="200" pts_warn_ms="200" avsync="2000" dts="1000" />
+</syscfg>
