@@ -22,7 +22,7 @@ public class ScreenLiveActivity extends AppCompatActivity {
     }
 
     public void startLive(View view) {
-        screenLive.startLive("", this);
+        screenLive.startLive("rtmp://192.168.56.101:12345/app", this);
     }
 
     public void stopLive(View view) {

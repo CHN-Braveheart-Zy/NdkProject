@@ -20,20 +20,26 @@ public class VideoCodec extends Thread {
     private long timestamp;
     private VirtualDisplay virtualDisplay;
     private MediaProjection mediaProjection;
+    private long startTime;
+    private ScreenLive screenLive;
+
+    public VideoCodec(ScreenLive screenLive) {
+        this.screenLive = screenLive;
+    }
 
     public void startLive(MediaProjection mediaProjection) {
         this.mediaProjection = mediaProjection;
         isLiving = true;
         try {
-            MediaFormat mediaFormat = MediaFormat.createVideoFormat(MediaFormat.MIMETYPE_VIDEO_AVC, 720, 1280);
-            mediaFormat.setInteger(MediaFormat.KEY_BIT_RATE, 1000_000);
-            mediaFormat.setInteger(MediaFormat.KEY_FRAME_RATE, 30);
+            MediaFormat mediaFormat = MediaFormat.createVideoFormat(MediaFormat.MIMETYPE_VIDEO_AVC, 360, 640);
+            mediaFormat.setInteger(MediaFormat.KEY_BIT_RATE, 400_000);
+            mediaFormat.setInteger(MediaFormat.KEY_FRAME_RATE, 15);
             mediaFormat.setInteger(MediaFormat.KEY_I_FRAME_INTERVAL, 2);
             mediaFormat.setInteger(MediaFormat.KEY_COLOR_FORMAT, MediaCodecInfo.CodecCapabilities.COLOR_FormatSurface);
             mediaCodec = MediaCodec.createEncoderByType(MediaFormat.MIMETYPE_VIDEO_AVC);
             mediaCodec.configure(mediaFormat, null, null, MediaCodec.CONFIGURE_FLAG_ENCODE);
             inputSurface = mediaCodec.createInputSurface();
-            virtualDisplay = mediaProjection.createVirtualDisplay("screen-codec", 720, 1280, 1,
+            virtualDisplay = mediaProjection.createVirtualDisplay("screen-codec", 360, 640, 1,
                     DisplayManager.VIRTUAL_DISPLAY_FLAG_AUTO_MIRROR, inputSurface, null, null);
         } catch (IOException e) {
             e.printStackTrace();
@@ -66,9 +72,16 @@ public class VideoCodec extends Thread {
                 byte[] buffer = new byte[bufferInfo.size];
                 byteBuffer.get(buffer);
 
-
                 //TODO:将编码好的数据送去rtmp格式进行封包,再发送
-
+                if (startTime == 0) {
+                    startTime = System.nanoTime() / 1000;
+                }
+                RTMPPackage rtmpPackage = new RTMPPackage();
+                rtmpPackage.setTms(bufferInfo.presentationTimeUs - startTime);
+                rtmpPackage.setType(RTMPPackage.RTMP_PACKET_AUDIO_DATA);
+                rtmpPackage.setBuffer(buffer);
+                screenLive.addPackage(rtmpPackage);
+                System.out.println("add video packet:" + buffer.length);
                 //释放index对应的buffer空间  render 解码才会用到,会将解码数据发送到surface
                 mediaCodec.releaseOutputBuffer(index, false);
             }
@@ -79,5 +92,15 @@ public class VideoCodec extends Thread {
         mediaCodec.release();
         virtualDisplay.release();
         mediaProjection.stop();
+        startTime = 0;
+    }
+
+    public void stopLive() {
+        isLiving = false;
+        try {
+            join();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 }

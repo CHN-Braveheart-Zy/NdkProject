@@ -17,6 +17,12 @@ public class AudioCodec extends Thread {
     private boolean isRecording;
     private MediaCodec mediaCodec;
     private int minBufferSize;
+    private long startTime;
+    private ScreenLive screenLive;
+
+    public AudioCodec(ScreenLive screenLive) {
+        this.screenLive = screenLive;
+    }
 
     public void startLive() {
         try {
@@ -31,7 +37,7 @@ public class AudioCodec extends Thread {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        minBufferSize = AudioTrack.getMinBufferSize(44100,
+        minBufferSize = AudioRecord.getMinBufferSize(44100,
                 AudioFormat.CHANNEL_IN_MONO, AudioFormat.ENCODING_PCM_16BIT);
         audioRecord = new AudioRecord(MediaRecorder.AudioSource.MIC, 44100,
                 AudioFormat.CHANNEL_IN_MONO, AudioFormat.ENCODING_PCM_16BIT, minBufferSize);
@@ -44,6 +50,14 @@ public class AudioCodec extends Thread {
         isRecording = true;
         audioRecord.startRecording();
         mediaCodec.start();
+
+        //音频编码包
+        RTMPPackage rtmpPackage = new RTMPPackage();
+        rtmpPackage.setBuffer(new byte[]{0x12, 0x08});
+        rtmpPackage.setType(RTMPPackage.RTMP_PACKET_AUDIO_HEAD);
+        rtmpPackage.setTms(0);
+        screenLive.addPackage(rtmpPackage);
+
         byte[] buffer = new byte[minBufferSize];
         MediaCodec.BufferInfo bufferInfo = new MediaCodec.BufferInfo();
         while (isRecording) {
@@ -61,24 +75,49 @@ public class AudioCodec extends Thread {
                 //将读取到的pcm数据添加到待编码的队列
                 inputBuffer.put(buffer, 0, len);
                 //通知容器,已准备好待编码的数据,可以进行编码了
-                mediaCodec.queueInputBuffer(index,0,len,System.nanoTime()/1000,0);
+                mediaCodec.queueInputBuffer(index, 0, len, System.nanoTime() / 1000, 0);
             }
             //获取已经编码好的数据 送去编码
             index = mediaCodec.dequeueOutputBuffer(bufferInfo, 0);
             //每次从编码器取完,再往解码器塞数据
-            while (index >=0 && isRecording) {
+            while (index >= 0 && isRecording) {
                 ByteBuffer outputBuffer = mediaCodec.getOutputBuffer(index);
                 //已编码好的数据
                 byte[] output = new byte[bufferInfo.size];
                 outputBuffer.get(output);
                 //todo:送去给rtmp封包
-
+                if (startTime == 0) {
+                    startTime = System.nanoTime() / 1000;
+                }
+                long timeUs = bufferInfo.presentationTimeUs / 1000;
+                rtmpPackage = new RTMPPackage();
+                rtmpPackage.setBuffer(output);
+                rtmpPackage.setType(RTMPPackage.RTMP_PACKET_AUDIO_DATA);
+                rtmpPackage.setTms(timeUs - startTime); //相对时间
+                screenLive.addPackage(rtmpPackage);
                 //释放内存
-                mediaCodec.releaseOutputBuffer(index,false);
+                mediaCodec.releaseOutputBuffer(index, false);
                 //继续获取未编码完的数据
                 index = mediaCodec.dequeueOutputBuffer(bufferInfo, 0);
             }
         }
+        audioRecord.stop();
+        audioRecord.release();
+        audioRecord = null;
+        mediaCodec.stop();
+        mediaCodec.release();
+        mediaCodec = null;
+        startTime = 0;
+
         isRecording = false;
+    }
+
+    public void stopLive() {
+        isRecording = false;
+        try {
+            join();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 }

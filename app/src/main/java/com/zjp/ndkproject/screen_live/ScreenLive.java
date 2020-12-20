@@ -8,15 +8,20 @@ import android.os.AsyncTask;
 
 import androidx.annotation.Nullable;
 
-import java.util.concurrent.ThreadPoolExecutor;
+import java.util.concurrent.LinkedBlockingDeque;
 
 import static android.app.Activity.RESULT_OK;
 
-public class ScreenLive implements Runnable{
+public class ScreenLive implements Runnable {
+    static {
+        System.loadLibrary("native-lib");
+    }
     public static final int REQUEST_CODE = 0X01;
     private MediaProjectionManager projectionManager;
     private MediaProjection mediaProjection;
     private String url;
+    private boolean isLiving;
+    private LinkedBlockingDeque<RTMPPackage> queue = new LinkedBlockingDeque<>();
 
     public void startLive(String url, ScreenLiveActivity activity) {
         this.url = url;
@@ -26,7 +31,8 @@ public class ScreenLive implements Runnable{
     }
 
     public void stopLive() {
-
+        addPackage(RTMPPackage.EMPTY_PACKAGE);
+        isLiving = false;
     }
 
     public void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
@@ -44,12 +50,45 @@ public class ScreenLive implements Runnable{
         if (!connect(url)) {
             return;
         }
-        VideoCodec videoCodec = new VideoCodec();
+        isLiving = true;
+        VideoCodec videoCodec = new VideoCodec(this);
         videoCodec.startLive(mediaProjection);
 
-        AudioCodec audioCodec = new AudioCodec();
+        AudioCodec audioCodec = new AudioCodec(this);
         audioCodec.startLive();
+        boolean isSend = true;
+        while (isLiving && isSend) {
+            //发送数据包
+            RTMPPackage rtmpPackage = null;
+            try {
+                rtmpPackage = queue.take();
+            } catch (Exception e) {
+            }
+            if (rtmpPackage == null) {
+                break;
+            }
+            if (rtmpPackage.getBuffer() != null && rtmpPackage.getBuffer().length > 0) {
+                isSend = sendData(rtmpPackage.getBuffer(), rtmpPackage.getBuffer().length,
+                        rtmpPackage.getType(), rtmpPackage.getTms());
+            }
+        }
+        isLiving = false;
+        videoCodec.stopLive();
+        audioCodec.stopLive();
+        queue.clear();
+        disconnect();
     }
 
     public native boolean connect(String url);
+
+    public native boolean sendData(byte[] buffer, int len, int type, long tms);
+
+    private native void disconnect();
+
+    public void addPackage(RTMPPackage rtmpPackage) {
+        if (!isLiving) {
+            return;
+        }
+        queue.add(rtmpPackage);
+    }
 }
